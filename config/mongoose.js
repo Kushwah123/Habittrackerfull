@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://user123:sX1WsbYrcS8eaBcK@cluster0.51384.mongodb.net/Habittracker?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://hospital:z2swpgr4Ken6sdGz@cluster1.c3wrh.mongodb.net/hospitalApi?retryWrites=true&w=majority', 
 { useNewUrlParser: true, useUnifiedTopology: true  });
 
 const db = mongoose.connection;
